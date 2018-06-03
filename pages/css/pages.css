@@ -41,8 +41,8 @@ h3 {
     font-size: 16pt;
 }
 
-p {
-    font-family: PTSans;
+.ptsans {
+        font-family: PTSans;
 }
 /* navigatibar */
 ul {
