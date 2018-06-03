@@ -43,7 +43,62 @@ h3 {
 
 .ptsans {
         font-family: PTSans;
+        font-size: 12pt;
 }
+
+.ptsansroos {
+    font-family: PTSans;
+    font-size: 12pt;
+    color:#c853da;
+}
+
+.fonts {
+    margin: 40px;
+}
+
+.uitlegfont {
+    margin: 40px;
+}
+
+
+/* kleurenpalet*/
+.colors{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.kleur{
+display: inline-block;
+margin: 40px;
+}
+.colorcode{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px; 
+    font-family: PTSans;
+}
+.color {
+width: 80px;
+height: 80px;
+margin-bottom: 20px;
+
+}
+.kleur1{
+    background-color: #000000;
+    border: 0.5px solid black}
+.kleur2{
+    background-color: #b2b2b2;
+    border: 0.5px solid black}
+.kleur3{
+    background-color: #e3e3e3;
+    border: 0.5px solid black}
+.kleur4{
+    background-color: #ffffff;
+    border: 0.5px solid black}
+.kleur5{
+    background-color: #c853da;
+    border: 0.5px solid black}
+    
 
 /* navigatibar */
 ul {
@@ -100,12 +155,12 @@ div.desc {
 
 
 
-
+/* Button */
 .btn {
     border: 2px solid black;
     background-color: #e3e3e3;
     color: black;
-    padding: 14px 28px;
+    padding: 5px 28px;
     font-size: 16px;
 }
 
